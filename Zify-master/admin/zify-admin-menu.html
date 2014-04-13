@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="ie lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>    <html class="ie lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>    <html class="ie lt-ie9"> <![endif]-->
+<!--[if gt IE 8]> <html class="ie "> <![endif]-->
+<!--[if !IE]><!--><html class=""><!-- <![endif]-->
+<head>
+	<title>CORAL Template (v1.9.4)</title>
+	
+	<!-- Meta -->
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+		<!--[if lt IE 9]><link rel="stylesheet" href="assets/components/library/bootstrap/css/bootstrap.min.css" /><![endif]-->
+	<link rel="stylesheet" href="assets/css/admin/module.admin.page.profile_resume.sidebar_type.fusion.min.css" />
+	<link rel="stylesheet" href="assets/css/admin/module.admin.page.dashboard_overview.sidebar_type.fusion.min.css" />
+	
+	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+<!--chart-->
+
+<script src="assets/components/modules/admin/charts/flot/assets/lib/excanvas.js?v=v1.9.4"></script>
+
+	<script src="assets/components/library/jquery/jquery.min.js?v=v1.9.4"></script>
+<script src="assets/components/library/jquery/jquery-migrate.min.js?v=v1.9.4"></script>
+<script src="assets/components/library/modernizr/modernizr.js?v=v1.9.4"></script>
+<script src="assets/components/plugins/less-js/less.min.js?v=v1.9.4"></script>
+<script src="assets/components/modules/admin/charts/flot/assets/lib/excanvas.js?v=v1.9.4"></script>
+<script src="assets/components/plugins/browser/ie/ie.prototype.polyfill.js?v=v1.9.4"></script>	<script>if (/*@cc_on!@*/false && document.documentMode === 10) { document.documentElement.className+=' ie ie10'; }</script>
+	
+</head>
+<body class="">
+	<div class="container-fluid menu-hidden menu-right-hidden">
+		<div id="menu" class="hidden-print hidden-xs sidebar-blue sidebar-brand-primary">
+<div id="sidebar-fusion-wrapper">
+	<div id="brandWrapper">
+		<a href="index.html?lang=en" class="animated fadeInDown display-block-inline pull-left logo"><img src="assets/images/logo/app-logo-style-default.png" alt=""></a>
+		<a href="index.html?lang=en"><span class="text">Zify</span></a>
+	</div>	
+	<ul class="menu list-unstyled" id="navigation_current_page" style="top:60px;">
+
+		<li class="reset profile-avatar">
+	<ul class="reset">
+		<li class="btn-avatar btn-group dropdown dropdown-menu-light btn-group-xs">
+			<a href="#" class="btn dropdown-toggle" data-toggle="dropdown"><i class="fa fa-cog"></i></a>
+			<ul class="dropdown-menu pull-right">
+				<li class="active"><a data-toggle="tab" href="#profile_avatar_small" class="not-animated">Small</a></li>
+				<li><a data-toggle="tab" href="#profile_avatar_large" class="not-animated">Large</a></li>
+			</ul>
+		</li>
+	</ul>
+	<div class="tab-content">
+		<div class="tab-pane active" id="profile_avatar_small">
+			<div class="innerL innerT innerB">
+				<div class="media innerL">
+					<div class="animated bounceIn pull-left"><img src="assets/images/people/50/16.jpg" width="48" class="img-circle thumb" /><i class="bg-success"></i></div>
+					<div class="media-body innerL half">
+						<h4 class="text-white">Zify User</h4>
+						<div class="btn btn-xs"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="tab-pane" id="profile_avatar_large">
+			<div class="profile-avatar innerT">
+				<div class="text-center innerTB">
+					<span class="display-block-inline animated bounceIn"><img src="assets/images/people/100/16.jpg" class="img-responsive img-circle thumb" /></span>
+				</div>
+			</div>
+			<div class="innerAll">
+				<h4 class="text-white margin-none"><i class="fa text-small fa-circle text-success pull-right"></i> MosaicPRO</h4>
+				<p class="margin-none text-muted text-small">Premium Web Templates</p>
+			</div>
+			<div class="innerLR innerB center">
+				<a href="#" class="btn btn-sm btn-block btn-inverse"><i class="fa fa-fw fa-check"></i> Friend</a>
+			</div>
+		</div>
+	</div>
+</li>
+<li class="active"><a href="profile.html?lang=en" class="glyphicons cardio"><i></i><span>Profile</span></a></li>
+<li><a href="social_account.html?lang=en" class="glyphicons user"><i></i><span>Account</span></a></li>
+<li><a href="user-friends.html?lang=en" class="glyphicons user"><i></i><span>Zify Friends</span></a></li>
+<li><a href="about.html?lang=en"><i class="fa fa-comments-o"></i><span>About Zify</span></a></li>
+<li><a href="faq.html?lang=en"><i class="fa fa-comments-o"></i><span>Contact Us</span></a></li>
+
+
+	</ul>
+</div>
+		</div>
+	</div>
+	
+	<!-- Global -->
+	<script>
+	var basePath = '',
+		commonPath = 'assets/',
+		rootPath = '',
+		DEV = false,
+		componentsPath = 'assets/components/';
+	
+	var primaryColor = '#eb6a5a',
+		dangerColor = '#b55151',
+		successColor = '#609450',
+		infoColor = '#4a8bc2',
+		warningColor = '#ab7a4b',
+		inverseColor = '#45484d';
+	
+	var themerPrimaryColor = primaryColor;
+	</script>
+	
+	<script src="assets/components/library/bootstrap/js/bootstrap.min.js?v=v1.9.4"></script>
+<script src="assets/components/plugins/nicescroll/jquery.nicescroll.min.js?v=v1.9.4"></script>
+<script src="assets/components/plugins/breakpoints/breakpoints.js?v=v1.9.4"></script>
+<script src="assets/components/core/js/animations.init.js?v=v1.9.4"></script>
+<script src="assets/components/modules/admin/gallery/blueimp-gallery/assets/lib/js/blueimp-gallery.min.js?v=v1.9.4"></script>
+<script src="assets/components/modules/admin/gallery/blueimp-gallery/assets/lib/js/jquery.blueimp-gallery.min.js?v=v1.9.4"></script>
+<script src="assets/components/core/js/sidebar.main.init.js?v=v1.9.4"></script>
+<script src="assets/components/core/js/sidebar.collapse.init.js?v=v1.9.4"></script>
+<script src="assets/components/modules/admin/forms/elements/bootstrap-select/assets/lib/js/bootstrap-select.js?v=v1.9.4"></script>
+<script src="assets/components/modules/admin/forms/elements/bootstrap-select/assets/custom/js/bootstrap-select.init.js?v=v1.9.4"></script>
+<script src="assets/components/core/js/sidebar.kis.init.js?v=v1.9.4"></script>
+<script src="assets/components/core/js/core.init.js?v=v1.9.4"></script>
+<!--charts dashboard call-->
+
+<script src="assets/components/modules/admin/charts/easy-pie/assets/lib/js/jquery.easy-pie-chart.js?v=v1.9.4"></script>
+<script src="assets/components/modules/admin/charts/easy-pie/assets/custom/easy-pie.init.js?v=v1.9.4"></script>
+<script src="assets/components/modules/admin/charts/flot/assets/lib/jquery.flot.js?v=v1.9.4"></script>
+<script src="assets/components/modules/admin/charts/flot/assets/lib/jquery.flot.resize.js?v=v1.9.4"></script>
+<script src="assets/components/modules/admin/charts/flot/assets/lib/plugins/jquery.flot.tooltip.min.js?v=v1.9.4"></script>
+<script src="assets/components/modules/admin/charts/flot/assets/custom/js/flotcharts.common.js?v=v1.9.4"></script>
+<script src="assets/components/modules/admin/charts/flot/assets/custom/js/flotchart-simple.init.js?v=v1.9.4"></script>	
+</body>
+</html>

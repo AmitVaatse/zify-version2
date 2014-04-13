@@ -1,0 +1,31 @@
+.styles { background-color:#dadcdd; height:100px; width:180px; display:block; padding:35px 6px 0; position:fixed; top:130px; left:-220px; z-index:10; padding:10px 20px;}
+.styles-open  { background:url(../images/styles-open.png) no-repeat; height:32px; width:22px; display:block;   position:fixed; top:140px; left:-220px; z-index:9;}
+.styles p { padding:20px 0 10px; font-weight:600;}
+.styles p.skins { padding:20px 0 10px; clear:both; }
+.styles li { float:left;  }
+.boxed a, .wide a { background-color:#47494a; color:#fff; float:left; border:1px #cccccc; height:20px; width:30px; display:block; padding:8px 25px;  }
+.wide a { margin:0 10px; }
+.gray a { background:url(../images/gray.png) no-repeat; height:34px; width:34px; display:block; margin-top:5px;}
+
+.blue a { background:url(../images/blue.png) no-repeat; height:34px; width:34px; display:block; margin-top:5px;}
+.blue2 a { background:url(../images/blue2.png) no-repeat; height:34px; width:34px; display:block; margin-top:5px;}
+
+.orange a { background:url(../images/orange.png) no-repeat; height:34px; width:34px; display:block; margin-top:5px;}
+.purple a { background:url(../images/purple.png) no-repeat; height:34px; width:34px; display:block; margin-top:5px;}
+
+.styles-closed  { width:51px; height:47px;  background:url(../images/styles-closed.png) no-repeat;  position:fixed; top:140px; left:0px; display:block; z-index:10; }
+.styles-closed a  { width:51px; height:47px;  position:fixed; top:140px; left:0px; }
+
+.main-intro {  
+	background: url("img/bg-highlight.png") repeat #191919;
+    min-height:1080px;
+   
+    width: 100%;
+    color:#fff;
+}
+.main-intro h1 {  
+	margin:0; padding:100px 0 30px
+}
+.intr { position:relative;  margin-top:80px; min-height:150px; max-width:100%;  width:200px;}
+a:focus { outline:0; }
+.styles li.clear { clear:both; width:100%;   }
